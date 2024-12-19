@@ -5,6 +5,7 @@
 
 
 qemu-system-aarch64 \
+    -m 1G \
     -M virt  \
     -cpu cortex-a53 -nographic -smp 1 \
     -kernel buildroot/output/images/Image \
